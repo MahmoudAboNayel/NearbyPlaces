@@ -14,7 +14,7 @@ public class User implements Serializable {
     public String mail;
     public String password;
     public Bitmap image;
-    public Date birth;
+    public Date birth = new Date();
 
     public User() {
     }
